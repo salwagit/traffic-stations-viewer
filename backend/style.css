@@ -1,14 +1,14 @@
-/* style.css - Thème clair */
+/* style.css - Thème vert pastel */
 
 :root {
-  --bg: #f8f9fa;
-  --panel: #ffffff;
-  --border: #dee2e6;
-  --accent: #dc3545;      /* rouge pour les boutons principaux */
-  --accent2: #fd7e14;     /* orange pour certains accents */
-  --accent3: #ffc107;     /* jaune */
-  --text: #212529;
-  --muted: #6c757d;
+  --bg: #F5F5DC;          /* beige clair */
+  --panel: #FFFFFF;       /* blanc pur */
+  --border: #E0E0E0;      /* gris très clair */
+  --accent: #90EE90;      /* vert pastel principal */
+  --accent2: #98FB98;     /* vert pastel clair */
+  --accent3: #E0F2E9;     /* vert très clair */
+  --text: #2C5530;        /* vert foncé pour texte */
+  --muted: #5A6A58;       /* vert-gris */
   --r: 12px;
   --mono: 'Share Tech Mono', monospace;
   --sans: 'Syne', sans-serif;
@@ -65,7 +65,7 @@ header {
   font-weight: 800;
   letter-spacing: 0.1em;
   color: var(--accent);
-  text-shadow: 0 0 5px rgba(220,53,69,0.2);
+  text-shadow: 0 0 5px rgba(144,238,144,0.4);
 }
 
 .logo span {
@@ -102,9 +102,9 @@ nav a {
 nav a:hover,
 nav a.active {
   background: var(--accent);
-  color: white;
+  color: #2C5530;
   border-color: var(--accent);
-  box-shadow: 0 0 10px rgba(220,53,69,0.3);
+  box-shadow: 0 0 10px rgba(144,238,144,0.5);
 }
 
 main {
@@ -226,13 +226,13 @@ main {
 
 .btn-primary {
   background: var(--accent);
-  color: white;
-  box-shadow: 0 0 10px rgba(220,53,69,0.3);
+  color: #2C5530;
+  box-shadow: 0 0 10px rgba(144,238,144,0.4);
 }
 
 .btn-primary:hover {
-  background: #c82333;
-  box-shadow: 0 0 15px rgba(220,53,69,0.5);
+  background: #7CFC00;
+  box-shadow: 0 0 15px rgba(144,238,144,0.6);
   transform: translateY(-2px);
 }
 
@@ -263,14 +263,14 @@ main {
 }
 
 .msg.ok {
-  background: rgba(220,53,69,0.08);
-  border: 1px solid rgba(220,53,69,0.2);
+  background: rgba(144,238,144,0.15);
+  border: 1px solid rgba(144,238,144,0.3);
   color: var(--accent);
 }
 
 .msg.err {
-  background: rgba(253,126,20,0.08);
-  border: 1px solid rgba(253,126,20,0.2);
+  background: rgba(152,251,152,0.15);
+  border: 1px solid rgba(152,251,152,0.3);
   color: var(--accent2);
 }
 
@@ -287,7 +287,7 @@ table {
 }
 
 thead th {
-  background: #e9ecef;
+  background: #F0FFF0;
   color: var(--accent);
   padding: 12px 14px;
   text-align: left;
@@ -305,7 +305,7 @@ tbody td {
 }
 
 tbody tr:hover td {
-  background: rgba(220,53,69,0.03);
+  background: rgba(144,238,144,0.1);
   color: var(--text);
 }
 

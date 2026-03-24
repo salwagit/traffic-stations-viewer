@@ -105,5 +105,3 @@ CMD ["node", "app.js"]
 - Colonnes: ID, Fwy, Dir, District, Latitude, Longitude...
 - Source: Caltrans PeMS
 
-**Auteur / Author**: BLACKBOXAI  
-**Licence**: MIT
